@@ -95,9 +95,9 @@ You can find the dataset on Kaggle.
   
   ###Load the Model and Predict:
 
-    You can load the trained model and use it to predict whether an uploaded image is real or fake. Here's an example:
+  You can load the trained model and use it to predict whether an uploaded image is real or fake. Here's an example:
    
-    ```sh
+  ```sh
     from tensorflow.keras.models import load_model
     from tensorflow.keras.preprocessing import image
     import numpy as np
@@ -113,15 +113,15 @@ You can find the dataset on Kaggle.
     # Predict
     prediction = model.predict(img_array)
     print('Real' if prediction < 0.5 else 'Fake')
-     ```
+```
 
-  ###Deploy the App:
+Deploy the App:
 
-    To deploy the app using Streamlit, run:
+To deploy the app using Streamlit, run:
 
-    ```sh
+ ```sh
     streamlit run app.py
-     ```
+ ```
 
 ## File Structure
 
