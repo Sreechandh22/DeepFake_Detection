@@ -93,7 +93,7 @@ You can find the dataset on Kaggle.
 
 ## Using the Model for Prediction
   
-  ###Load the Model and Predict:
+  Load the Model and Predict:
 
   You can load the trained model and use it to predict whether an uploaded image is real or fake. Here's an example:
    
@@ -125,15 +125,15 @@ To deploy the app using Streamlit, run:
 
 ## File Structure
 
-DeepFake_Detection/
-├── Dataset/
-│   ├── Train/
-│   ├── Validation/
-│   ├── Test/
-├── README.md
-├── app.py
-├── requirements.txt
-├── deepfake_detector_model.h5
+    DeepFake_Detection/
+      ├── Dataset/
+      │   ├── Train/
+      │   ├── Validation/
+      │   ├── Test/
+      ├── README.md
+      ├── app.py
+      ├── requirements.txt
+      ├── deepfake_detector_model.h5
 
 ## License
 
