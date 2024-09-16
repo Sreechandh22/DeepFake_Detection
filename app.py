@@ -4,7 +4,7 @@ from tensorflow.keras.preprocessing import image
 import numpy as np
 
 # Load your pre-trained model
-model = load_model(r'C:\Users\sreec\OneDrive\Desktop\DF\deepfake_detector_model.h5')
+model = load_model('deepfake_detector_model.h5')
 
 def preprocess_image(img):
     img = img.resize((128, 128))
