@@ -76,7 +76,7 @@ You can find the dataset on Kaggle.
   
   Prepare the data:
   
-    Ensure that the dataset is structured as follows:
+  Ensure that the dataset is structured as follows:
     
       Dataset/Train/ for training images
   
@@ -87,7 +87,8 @@ You can find the dataset on Kaggle.
   
   Run the training script:
 
-    Use the following command to train the model:
+  Use the following command to train the model:
+  
       python app.py
 
 
